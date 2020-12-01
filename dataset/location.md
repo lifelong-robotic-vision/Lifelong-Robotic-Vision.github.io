@@ -12,12 +12,12 @@ mathjax: true
 
 # OpenLORIS-Location Dataset
 
->(L)ifel(O)ng (R)obotic V(IS)ion (**OpenLORIS**) - Location Dataset (**OpenLORIS-Location**) is designed for accelerating the localization research for indoor localization, which contains variant illumination and viewpoints, severe dynamic elements, repetitive features and daily changed items.
+>(L)ifel(O)ng (R)obotic V(IS)ion (**OpenLORIS**) - Location Dataset (**OpenLORIS-Location**) is designed for the research of indoor visual localization. It contains contains variant illumination and viewpoints, severe dynamic elements, repetitive features and daily changed items.
 
 ## Dataset download
 > Our dataset can be downloaded at [OpenLORIS-Location dataset](). The dataset is an open dataset, and we welcome contribution of data from third parties.  Please contact [Fei Qiao](mailto:qiaofei@tsinghua.edu.cn) for more details.
 > Our project using OpenLORIS-Location dataset for training can be found at [RaP-Net](https://github.com/ivipsourcecode/RaP-Net)
-Please see the details in our paper below. You can also open an issue [here](https://github.com/lifelong-robotic-vision/lifelong-slam/issues?q=is%3Aissue) for any questions.
+Please see the details in our paper below. You can also open an issue [here](https://github.com/ivipsourcecode/RaP-Net/issues) for any questions.
 
 ## Motivation
 Visual localization aims to estimate the camera pose of a given image taken in a mapped area. It is a fundamental problem for many artificial intelligence applications. Although localization in urban environments archives good performance, indoor localization is still a non-trivial task. For indoor visual localization, the challenges come from repetitive features like carpet, textures and visually identical pillars, and dynamic objects like moving people and moved furniture. And the main reason causing such gap is that the feature extraction in indoor environment is not reliable.  Localization needs reliable features extracted from static/stable regions. 
