@@ -68,7 +68,7 @@ Our released dataset is a collection of $97$ distinct locations including $1553$
 
 \* (newly collected locations + derived from OpenLORIS-Scene dataset)
 
-<!--
+
 ## Data structure
 
 ourDataset/
