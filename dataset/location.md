@@ -28,7 +28,7 @@ To help the research about indoor localization , we introduce a new indoor image
 
 More description of the dataset can be found in [this paper](https://arxiv.org/abs/2012.00234):
 
-> Dongjiang Li et al. "RaP-Net: A Region-wise and Point-wise Weighting Network to Extract Robust Keypoints for Indoor Localization."
+> Dongjiang Li et al. "RaP-Net: A Region-wise and Point-wise Weighting Network to Extract Robust Keypoints for Indoor Localization." arXiv preprint arXiv:2012.00234, 2020.
 
 If you find our dataset and related project useful in your research, please consider citing:
 
