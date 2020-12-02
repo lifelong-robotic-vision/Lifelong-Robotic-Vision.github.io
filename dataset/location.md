@@ -46,7 +46,7 @@ image is added into the corresponding location. To make sure images belonging to
 information, a new image is regarded as a new location only if it was far from existing locations or it had a large viewpoint
 change compared to existing locations. Figure below (b) shows some samples extracted from OpenLORIS-Scene.
 
-![dataset-location](dataset-location-2.pdf)
+![dataset-location](dataset-location.jpg)
 
 On the other hand, in order to enlarge the training and validation data, we collect 64 new locations. Those data are all taken by cameras on cellphones and most of them keep almost the same viewpoint, but they contain appearance changes and dynamic occlusions as shown in figure above (c).
 
