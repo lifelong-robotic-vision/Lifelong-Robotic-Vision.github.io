@@ -65,24 +65,22 @@ Our released dataset is a collection of $97$ distinct locations including $1553$
 | restaurant | 5+4 | 135 |high dynamics |
 | station | 8+0 | 98 |dynamics, repetitive patterns |
 | **Total** | **64+30** | **1553** | |
+
 \* (newly collected locations + derived from OpenLORIS-Scene dataset)
 
+<!--
 ## Data structure
 
 ourDataset/
   | ------ Scene#1/
   | ------ | ------ Location#1/
-  | ------ | ------ | ------ 001.jpg
-  | ------ | ------ | ------ ...
-
-  | ------ | ------ | ------  XXX.jpg
+  | ------ | ------ | ------ 001.jpg/
+  | ------ | ------ | ------ .../
+  | ------ | ------ | ------  XXX.jpg/
   | ------ | ------ Location#2/
-  | ------ | ------ | ------ ...
-
+  | ------ | ------ | ------ .../
   | ------ Scene#2/
-
-  | ------ | ------  ...
-
+  | ------ | ------  .../
 --->
 
 ## References
