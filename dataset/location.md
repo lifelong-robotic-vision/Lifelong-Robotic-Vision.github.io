@@ -71,16 +71,16 @@ Our released dataset is a collection of $97$ distinct locations including $1553$
 
 ## Data structure
 
-ourDataset/
-  | ------ Scene#1/
-  | ------ | ------ Location#1/
-  | ------ | ------ | ------ 001.jpg/
-  | ------ | ------ | ------ .../
-  | ------ | ------ | ------  XXX.jpg/
-  | ------ | ------ Location#2/
-  | ------ | ------ | ------ .../
-  | ------ Scene#2/
-  | ------ | ------  .../
+ourDataset  
+  | ------ Scene#1  
+  | ------ | ------ Location#1  
+  | ------ | ------ | ------ 001.jpg  
+  | ------ | ------ | ------ ...  
+  | ------ | ------ | ------  XXX.jpg  
+  | ------ | ------ Location#2  
+  | ------ | ------ | ------ ...  
+  | ------ Scene#2  
+  | ------ | ------  ...  
 --->
 
 ## References
