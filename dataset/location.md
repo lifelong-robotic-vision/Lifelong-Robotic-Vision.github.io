@@ -26,19 +26,17 @@ The regions with different semantic attributes should not play equal importance.
 
 To help the research about indoor localization , we introduce a new indoor image  dataset, refered as OpenLORIS-Location. The dataset is composed of 94 locations, and each location contains several images taken at different time with various kinds of indoor interferences. Part of the data are derived from the OpenLORIS-Scene dataset, while others are newly collected in various indoor scenes. 
 
-More description of the dataset can be found in [this paper]():
+More description of the dataset can be found in [this paper](https://arxiv.org/abs/2012.00234):
 
 > Dongjiang Li et al. "RaP-Net: A Region-wise and Point-wise Weighting Network to Extract Robust Keypoints for Indoor Localization."
 
 If you find our dataset and related project useful in your research, please consider citing:
 
-    @inproceedings{li2020RaPNet,
+    @article{li2020RaPNet,
         title={ {RaP-Net}: A Region-wise and Point-wise Weighting Network to Extract Robust Keypoints for Indoor Localization},
-        author={},
-        booktitle={},
-        year={},
-        pages={},
-    }
+        author={Dongjiang Li and Jinyu Miao and Xuesong Shi and Yuxin Tian and Qiwei Long and Ping Guo and Hongfei Yu and Wei Yang and Haosong Yue and Qi Wei and Fei Qiao},
+        journal={arXiv preprint arXiv:2012.00234},
+        year={2020}
     }
 
 
