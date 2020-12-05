@@ -15,7 +15,7 @@ mathjax: true
 >(L)ifel(O)ng (R)obotic V(IS)ion (**OpenLORIS**) - Location Dataset (**OpenLORIS-Location**) is designed for the research of indoor visual localization. It contains contains variant illumination and viewpoints, severe dynamic elements, repetitive features and daily changed items.
 
 ## Dataset download
-> Our dataset can be downloaded at [OpenLORIS-Location dataset](). The dataset is an open dataset, and we welcome contribution of data from third parties.  Please contact [Fei Qiao](mailto:qiaofei@tsinghua.edu.cn) for more details.
+> Our dataset can be downloaded at [OpenLORIS-Location dataset](https://github.com/lifelong-robotic-vision/OpenLORIS-Location). The dataset is an open dataset, and we welcome contribution of data from third parties.  Please contact [Fei Qiao](mailto:qiaofei@tsinghua.edu.cn) for more details.
 > Our project using OpenLORIS-Location dataset for training can be found at [RaP-Net](https://github.com/ivipsourcecode/RaP-Net)
 Please see the details in our paper below. You can also open an issue [here](https://github.com/ivipsourcecode/RaP-Net/issues) for any questions.
 
