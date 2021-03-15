@@ -107,6 +107,8 @@ The first three issues below can be fixed by [these scripts](https://github.com/
 
 - (Fixed in Nov 2019 release) ~~There are duplicated messages on the /odom topic in office-1 bags. Can be removed with [this script](https://github.com/lifelong-robotic-vision/lifelong-slam/issues/2).~~
 
+- One depth image frame is missing in office1-6, at the time of 1560244316.03. (Thanks to [Willyzw for identifying it](https://github.com/lifelong-robotic-vision/OpenLORIS-Scene/issues/28))
+
 ## FAQ
 
 <ul><li>
