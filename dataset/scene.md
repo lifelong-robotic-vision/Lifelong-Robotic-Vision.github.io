@@ -101,7 +101,7 @@ Please leave the email field blank if you do not want to receive such emails.
 
 ## Fixed Issues
 
-If your data have the first three issues (meaning that they were downloaded between Nov 2019 and May 2020), you can fix them in place with the Python script [fix_bags.py](https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/fix_bags.py) or (fix_packages.py)[https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/fix_packages.py]. (e.g. `./fix_bags.py --fix-all YOUR_OPENLORIS_FOLDER`)
+If your data have the first three issues (meaning that they were downloaded between Nov 2019 and May 2020), you can fix them in place with the Python script [fix_bags.py](https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/fix_bags.py) or [fix_packages.py](https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/fix_packages.py). (e.g. `./fix_bags.py --fix-all YOUR_OPENLORIS_FOLDER`)
 
 - (Fixed in May 2020 release) The linear velocities in the odom data of office/corridor/home/cafe are in the world coordinates (odom frame, non-zero values on x and y directions) rather than the base coordinates (base_link frame, non-zero values on x-axis (forward) only).
 
