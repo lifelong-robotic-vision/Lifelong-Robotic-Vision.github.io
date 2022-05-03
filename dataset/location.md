@@ -34,7 +34,7 @@ If you find our dataset and related project useful in your research, please cons
 
     @article{li2020RaPNet,
         title={ {RaP-Net}: A Region-wise and Point-wise Weighting Network to Extract Robust Keypoints for Indoor Localization},
-        author={Dongjiang Li and Jinyu Miao and Xuesong Shi and Yuxin Tian and Qiwei Long and Ping Guo and Hongfei Yu and Wei Yang and Haosong Yue and Qi Wei and Fei Qiao},
+        author={Dongjiang Li and Jinyu Miao and Xuesong Shi and Yuxin Tian and Qiwei Long and Tianyu Cai and Ping Guo and Hongfei Yu and Wei Yang and Haosong Yue and Qi Wei and Fei Qiao},
         booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
         year={2021},
         pages={1331-1338},
