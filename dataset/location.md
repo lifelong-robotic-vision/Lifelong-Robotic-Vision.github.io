@@ -28,15 +28,16 @@ To help the research about indoor localization , we introduce a new indoor image
 
 More description of the dataset can be found in [this paper](https://arxiv.org/abs/2012.00234):
 
-> Dongjiang Li et al. "RaP-Net: A Region-wise and Point-wise Weighting Network to Extract Robust Features for Indoor Localization." arXiv preprint arXiv:2012.00234, 2020.
+> D. Li et al., "RaP-Net: A Region-wise and Point-wise Weighting Network to Extract Robust Features for Indoor Localization," 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2021, pp. 1331-1338, doi: 10.1109/IROS51168.2021.9636248.
 
 If you find our dataset and related project useful in your research, please consider citing:
 
     @article{li2020RaPNet,
         title={ {RaP-Net}: A Region-wise and Point-wise Weighting Network to Extract Robust Features for Indoor Localization},
         author={Dongjiang Li and Jinyu Miao and Xuesong Shi and Yuxin Tian and Qiwei Long and Tianyu Cai and Ping Guo and Hongfei Yu and Wei Yang and Haosong Yue and Qi Wei and Fei Qiao},
-        journal={arXiv preprint arXiv:2012.00234},
-        year={2020}
+        booktitle={2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+        year={2021},
+        pages={1331-1338},
     }
 
 

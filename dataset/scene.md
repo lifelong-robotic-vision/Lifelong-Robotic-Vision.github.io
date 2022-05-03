@@ -10,6 +10,8 @@ mathjax: true
 
 # OpenLORIS-Scene Dataset
 
+> The software tools for collecting and processing data, and benchmarking have been released on GitHub: [OpenLORIS-Scene Tools](https://github.com/lifelong-robotic-vision/openloris-scene-tools).
+
 The OpenLORIS-Scene dataset aims to help evaluate the maturity of SLAM and scene
 understanding algorithms for real-world deployment, by providing *visual*,
 *inertial* and *odometry* data recorded with real robots in real scenes, and
@@ -99,7 +101,7 @@ Please leave the email field blank if you do not want to receive such emails.
 
 ## Fixed Issues
 
-The first three issues below can be fixed by [these scripts](https://github.com/lifelong-robotic-vision/lifelong-slam/issues/8). So you don't have to re-download the new release if you had downloaded the data between Nov 2019 and May 2020. Just run the script with your data (e.g. `./fix_bags.py --fix-all OPENLORIS_FOLDER`)
+If your data have the first three issues (meaning that they were downloaded between Nov 2019 and May 2020), you can fix them in place with the Python script [fix_bags.py](https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/fix_bags.py) or [fix_packages.py](https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/fix_packages.py). (e.g. `./fix_bags.py --fix-all YOUR_OPENLORIS_FOLDER`)
 
 - (Fixed in May 2020 release) The linear velocities in the odom data of office/corridor/home/cafe are in the world coordinates (odom frame, non-zero values on x and y directions) rather than the base coordinates (base_link frame, non-zero values on x-axis (forward) only).
 
@@ -109,7 +111,7 @@ The first three issues below can be fixed by [these scripts](https://github.com/
 
 - (Fixed in Nov 2019 release) For office/corridor/cafe/home data, there is an translation error of over 1cm in the extrinsics of D435i IMU. The translation of d400_imu from d400_color should be [0.0203127935528755, -0.0051032523624599, -0.0112013882026076], while the current values are [0.014881294220686, -2.32995425903937e-05, 0.000588475959375501].
 
-- (Fixed in Nov 2019 release) There are duplicated messages on the /odom topic in office-1 bags. Can be removed with [this script](https://github.com/lifelong-robotic-vision/lifelong-slam/issues/2).
+- (Fixed in Nov 2019 release) There are duplicated messages on the /odom topic in office-1 bags. Can be removed with [remove_duplicated_msgs.py](https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/remove_duplicated_msgs.py).
 
 ## FAQ
 
@@ -166,7 +168,7 @@ Both RealSense D435i and RealSense T265 has an integrated IMU (BMI055). Please c
 Why are there separate data for gyroscope and accelerometer? How to merge them?
 </li></ul>
 <ul><p>
-We provide the raw data from the IMU, where the gyroscope and accelerometer have different data rates. You may merge them with linear interpolation or other advanced methods. A simple script for merging the two d400 IMU topics into a unified topic with linear interpolation can be found <a href="https://gist.github.com/cedrusx/da24308e1824a6fabb0aa9f6ed7042b0">here</a>.
+We provide the raw data from the IMU, where the gyroscope and accelerometer have different data rates. You may merge them with linear interpolation or other advanced methods. A simple script for merging the two d400 IMU topics into a unified topic with linear interpolation can be found <a href="https://github.com/lifelong-robotic-vision/openloris-scene-tools/blob/master/dataprocess/merge_imu_topics.py">here</a>.
 </p></ul>
 
 <ul><li>
