@@ -17,6 +17,4 @@ Follow the dataset pages and corresponding papers for more details:
 - [OpenLORIS-Scene for Lifelong SLAM]({{site.url}}{{site.baseurl}}/dataset/scene.html) ([ICRA 2020](https://arxiv.org/abs/1911.05603))
 - [OpenLORIS-Location for Indoor Visual Localization]({{site.url}}{{site.baseurl}}/dataset/location.html) ([IROS 2021](https://arxiv.org/abs/2012.00234))
 
-Refer to the IROS 2019 talk for our thoughts behind the datasets:
-
-<iframe src="https://www.youtube.com/watch?v=XelMEP4lPnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+Welcome to watch [out talk at IROS 2019](https://www.youtube.com/watch?v=XelMEP4lPnU) to know our thoughts behind the datasets.
