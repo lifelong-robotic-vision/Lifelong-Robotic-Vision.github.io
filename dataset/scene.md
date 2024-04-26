@@ -90,10 +90,12 @@ for the office scene, and from offline LiDAR SLAM based on the Hokuyo laser scan
 
 ## Download
 
-Fill [this form](http://openloris.sv.mikecrm.com/Nv8LzXF) to download the data.
+~~Fill [this form](http://openloris.sv.mikecrm.com/Nv8LzXF) to download the data.
 The form is for us to track how many people are using the datasets, and to
 contact with users when further data or related competitions are available.
-Please leave the email field blank if you do not want to receive such emails.
+Please leave the email field blank if you do not want to receive such emails.~~
+
+The data can be downloaded from either Google Drive or Baidu Pan. See the urls and instructions on [the download page](https://github.com/lifelong-robotic-vision/OpenLORIS-Scene/blob/master/download.md).
 
 ## Known Issues
 
